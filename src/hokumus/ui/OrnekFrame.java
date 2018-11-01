@@ -83,6 +83,14 @@ public class OrnekFrame extends JFrame {
 		btnIptal.setBackground(Color.YELLOW);
 		btnIptal.setBounds(239, 86, 100, 20);
 		getContentPane().add(btnIptal);
+		
+		JButton btnNewButton = new JButton("New button");
+		btnNewButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			}
+		});
+		btnNewButton.setBounds(60, 201, 91, 23);
+		getContentPane().add(btnNewButton);
 
 	}
 }
